@@ -1,0 +1,33 @@
+h1 {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px blue solid;
+}
+
+.bottom {
+    border-top: 1px purple solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+.left {
+    border-right: 1px orange solid;
+}
